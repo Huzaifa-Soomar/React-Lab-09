@@ -1,0 +1,173 @@
+/* App.css */
+
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #444;
+  margin: 20px 0;
+  border-bottom: 2px dashed #ddd;
+  padding-bottom: 10px;
+}
+
+/* Counter Component */
+.counter {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.counter h1 {
+  font-size: 28px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.counter button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter button:hover {
+  background-color: #45a049;
+}
+
+.counter button:active {
+  background-color: #388e3c;
+}
+
+/* Calculator Component */
+.calculator {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.calculator input {
+  width: 80px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.calculator button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculator button:hover {
+  background-color: #1e88e5;
+}
+
+.calculator h2 {
+  font-size: 20px;
+  color: #555;
+}
+
+/* Login Form Component */
+.login-form {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Cart Component */
+.cart {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cart h1 {
+  font-size: 24px;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+.cart h5 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.cart button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart button:hover {
+  background-color: #e64a19;
+}
+
+.cart button:active {
+  background-color: #d84315;
+}
+
+.cart h5:last-of-type {
+  font-weight: bold;
+  font-size: 20px;
+  color: #444;
+}
